@@ -11,8 +11,41 @@ html {
 	-ms-text-size-adjust-100%;
 	-webkit-text-size-adjust-100%;
 	-text-size-adjust-100%;
+	font-family: sans-serif;
 }
 
 *, *::before, *::after; {
 	box-sizing: inherit;
+}
+
+body{
+	background-image: url(../images/all.svg);
+	background-repeat: no-repeat;
+	background-position: top, left;
+	background-size: 70%;
+}
+
+h1 {
+	font-weight: bold;
+	font-family: sans-serif;
+	margin: 1em 0;
+	padding: 0;
+	line-height: 1.5rem;
+	color: #616AAC;
+}
+
+dt{
+line-height: 1.5rem;
+margin: 0;
+padding: 0;
+font-size: 1em;
+color: #df0b19;
+}
+
+dd{
+line-height: 1.5rem;
+margin: 0 0 0 1rem;
+padding: 0;
+font-weight: bold;
+color: #884f97;
 }
