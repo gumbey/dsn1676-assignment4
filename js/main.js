@@ -9,7 +9,7 @@ console.log(blueberries)
 
 var grapes = {
 	fullName: 'Vitis vinifera',
-	growsOnShrub: fulse,
+	growsOnShrub: false,
 	energy: 288,
 	carboydrates: 18.1,
 	protein: 0.72,
